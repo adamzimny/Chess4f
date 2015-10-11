@@ -1,0 +1,5 @@
+/build/
+/dist/
+board.log
+chess.log
+nbproject/private/private.xml

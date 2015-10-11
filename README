@@ -1,0 +1,23 @@
+Chess4f
+
+This is a very simple implementation of chess.
+AI uses a simple brute-force search but interesting paths (with captures and checks) 
+are analyzed deeper.
+Algorithm is strong enough to beat a beginning player. It might not be able to finish the
+game if checkmate requires deeper analysis than the maximum level set in the code
+(there are no specialized strategies implemented to finish the game).
+En passant and promotion are not implemented yet.
+
+* Requirements:
+ant (http://ant.apache.org/)
+JDK 8 (https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
+
+* Building:
+ant clean jar
+
+*Running:
+java -jar dist/Chess4f.jar
+
+Have fun.
+
+
